@@ -3,15 +3,31 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Minatea</title>
+	<title>Minatea 고급 수제 디저트 브랜드</title>
 	<meta content="" name="description">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="width=device-width" name="viewport">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-{% load staticfiles %}
-
-	<link href="img/favicon.png" rel="icon" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script%7CLato:300,400,700" rel="stylesheet">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script%7CLato:300,400,700" rel="stylesheet">
 	<link href="css/bootstrap-light.css" rel="stylesheet">
 	<link id="pagestyle" href="css/theme-light.css" rel="stylesheet">
 </head>
@@ -119,20 +135,7 @@
 			<!-- / CART SUMMARY CALCULATION -->
 
 			<!-- HIDDEN PAYPAL FORM -->
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="cart-form" id="cart-form">
-				<!-- Identify your business so that you can collect the payments. -->
-				<input type="hidden" name="business" value="yourpaypal@email.com">
-				<!-- Specify a Buy Now button. -->
-				<input type="hidden" name="cmd" value="_xclick">
-				<!-- Specify details about the item that buyers will purchase. -->
-				<input type="hidden" name="item_name" value="Choco - checkout">
-				<input type="hidden" name="amount" id="amount" value="">
-				<input type="hidden" name="currency_code" value="USD">
-				<!-- Display the payment button. -->
-				<button type="submit" name="submit" class="btn btn-default btn-lg">
-				pay pal checkout <span class="ti-arrow-right"></span>
-				</button>
-			</form>
+
 			<!-- / HIDDEN PAYPAL FORM -->
 		</div>
 		<div class="cart-widget-close-overlay"></div>
@@ -162,19 +165,21 @@
 					<div class="countdown-container">
 						<h3 class="wow fadeInDown">미나티만의 특별한 애프터눈 티 디저트 세트</h3>
 
-						<p class="wow fadeInDown">매 주 바뀌는 Minatea의 애프터눈 티 디저트 세트는 목/금요일 이틀간 한정수량 제작 됩니다.
-<br>당신의 소중한 주말 따뜻한 티타임을 연출 할 수 있도록 할 Minatea의 애프터눈 티세트는
-신선한 seasonal 재료로 특별히 구성됩니다. 그 기회를 놓치지 마세요!
-<br><br><br><br><strong><h3>예약 기한 : 매주 수요일 늦은 저녁 12:00<h3></strong></p>
+						<p class="wow fadeInDown">매 주 바뀌는 Minatea의 애프터눈 티 디저트 세트는 한정수량 제작 됩니다.
+<br>파티쉐의 정성이 가득 담긴 12가지 수제 디저트 <br>당신의 소중한 주말 따뜻한 티타임을 연출 할 수 있도록 할 Minatea의 애프터눈 티세트는
+신선한 seasonal 재료로 특별히 구성됩니다. 그 기회를 놓치지 마세요!<strong> * 금요일 배송됩니다.*</strong> 오픈 기념 <strong> 20% </strong>세일
+<br><br><strong><h3>예약 기한 : 11/9 목요일 늦은 저녁 12:00<h3></strong></p>
+
 
 						<!-- DATA COUNDOWN INJECTED BY JS -->
 						<ul id="countdown" class="countdown-counter wow fadeInUp"></ul>
 						<!-- / DATA COUNDOWN INJECTED BY JS -->
 
-						<span class="countdown-price h3 wow fadeInUp">$25.00</span>
+						<span class="countdown-price h3 wow fadeInUp">₩ 24,000</span>
+						<a href = "https://goo.gl/HJcjTb">
 						<button type="button" class="btn btn-default add-item wow swing" data-image="img/0F3A6937.JPG" data-name="Chocolate desire [promo]" data-cost="420.00" data-id="9">
 							<span class="ti-shopping-cart"></span>예약하러 가기
-						</button>
+						</button></a>
 					</div>
 				</div>
 			</div>
@@ -225,12 +230,12 @@
 
 								<a>
 									<span class="product-list-right pull-left">
-										<span class="product-list-name h3">마카롱 6&12구<br> 선물용 세트</span>
+										<span class="product-list-name h3">마카롱 6 & 12구<br> 선물용 세트</span>
 										<span class="product-list-price">20% Sale off!</span>
 									</span>
 								</a>
 
-								<a href = "http://storefarm.naver.com/minatea/products/22837038385"><button type="button" class="btn btn-default">
+								<a href = "https://goo.gl/53d68z"><button type="button" class="btn btn-default">
 									<span class="ti-shopping-cart"></span>Go to buy
 								</button></a>
 							</li>
@@ -646,7 +651,7 @@
         <div class="col-md-4 about-white-box col-md-offset-4">
 	        <h2 class="section-claim wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
 	        Minatea <br>
-	        	<span>친환경 , 신선식품 , 최고의 재료</span>
+	        	<span><h3>친환경 , 신선식품 , 최고의 재료</h3></span>
 	        </h2>
 
         	<p>달콤한 디저트를 맛볼 때 우리는 걱정합니다, 이 달콤함이 건강을 해치지는 않을까, 좋은 재료가 쓰여진 걸까라고 생각하게 되기 마련입니다. Minatea는 찾아주시는 모든 분들이 안심할 수 있게 다음과 같이 약속합니다. 건강한 재료의 선별과 관리에 소홀하지 않으며 모든 제조과정에서 일체의 방부제를 포함한 유해 첨가물을 배제하겠습니다. 작은 부분일 수 있지만 전부가 될 수도 있는<br> <strong>모든 속재료 (퓨레, 앙금, 잼) 등을 파티쉐가 직접 만들겠습니다.</strong> </p>
@@ -1075,9 +1080,9 @@ p{
 						<ul class="white-color">
 							<li><span class="ti-home icon"></span>경기 의왕 내손중앙 6길 77</li>
 							<li><span class="ti-mobile icon"></span>070 7769 1126, 평일 10:00-20:00</li>
-							<li><span class="ti-email icon"></span>minatea@minatea.com</li>
+							<li><span class="ti-email icon"></span>minatea001@naver.com</li>
 							<li><a href="https://www.instagram.com/minatea001/" ><span class="ti-instagram icon"></span></a>minatea001</li>
-							<li><a href="http://youtube.com/"><span class="ti-youtube icon"></span></a>footage video</li>
+							<li><a href="https://www.youtube.com/watch?v=WbVSmzy2E84https://www.youtube.com/watch?v=WbVSmzy2E84"><span class="ti-youtube icon"></span></a>footage video</li>
 
 						</ul>
 					</div>
