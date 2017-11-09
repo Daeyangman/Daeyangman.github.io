@@ -1,5 +1,5 @@
 // COUNTDOWN
-$('#countdown').countdown('2017/11/10', function(event) {
+$('#countdown').countdown('2017/11/15', function(event) {
   var $this = $(this).html(event.strftime(''
 //+ '<li><span>%w</span> weeks</li> '
     + '<li><span>%D</span> days</li> '
